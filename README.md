@@ -47,7 +47,7 @@ Artsiom Karenka
 
 При разработке необходимо учесть, что экран может меняться как в portrait, так и в landscape ориентацию. Можно использовать тестовый режим (test mode) для отображения рекламы.
 
-![Screen Recording 2023-09-22 at 20 56 55](https://github.com/arti1233/TestTaskAppodeal/assets/107428500/32562703-04cb-4316-9701-a727bc25c6e5)
+![Screen Recording 2023-09-22 at 20 56 55 (1)](https://github.com/arti1233/TestTaskAppodeal/assets/107428500/814b7523-d0c9-47d7-8bd5-6e4300921b8b)
 
 
 
