@@ -38,9 +38,17 @@ Artsiom Karenka
 2) Кнопка Interstitials: При нажатии на кнопку будут отображаться interstitial. Показывать interstitials не чаще чем раз в минуту. Когда показ сделать невозможно, кнопка должна быть не активной.
    
 3) Кнопка Rewarded Video должна быть активна только при наличии загруженного rewarded video. За одну сессию нельзя показать больше 3х rewarded video. Когда показ сделать невозможно, кнопка должна быть не активной.
-   
+
+![Screen Recording 2023-09-22 at 20 46 23](https://github.com/arti1233/TestTaskAppodeal/assets/107428500/9065bea9-4a79-4c27-92c0-3fa2f9727a3f)
+
 4) Кнопка Native: При нажатии на кнопку будет появляться ListView / UITableView со встроенной нативной рекламой (не менее 3 штук).
 
+![Screen Recording 2023-09-22 at 20 50 59](https://github.com/arti1233/TestTaskAppodeal/assets/107428500/cd3c80f1-9810-4dea-9c2e-27b69f903796)
+
 При разработке необходимо учесть, что экран может меняться как в portrait, так и в landscape ориентацию. Можно использовать тестовый режим (test mode) для отображения рекламы.
+
+![Screen Recording 2023-09-22 at 20 56 55](https://github.com/arti1233/TestTaskAppodeal/assets/107428500/32562703-04cb-4316-9701-a727bc25c6e5)
+
+
 
 
