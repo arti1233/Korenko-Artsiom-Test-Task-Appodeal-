@@ -36,6 +36,8 @@ Artsiom Karenka
 ![Screen Recording 2023-09-22 at 20 35 16](https://github.com/arti1233/TestTaskAppodeal/assets/107428500/010a592e-c79b-4aa0-95d4-d4c36a7cb981)
 
 2) Кнопка Interstitials: При нажатии на кнопку будут отображаться interstitial. Показывать interstitials не чаще чем раз в минуту. Когда показ сделать невозможно, кнопка должна быть не активной.
+
+На видео выше
    
 3) Кнопка Rewarded Video должна быть активна только при наличии загруженного rewarded video. За одну сессию нельзя показать больше 3х rewarded video. Когда показ сделать невозможно, кнопка должна быть не активной.
 
