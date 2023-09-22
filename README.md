@@ -46,9 +46,8 @@ Artsiom Karenka
 ![Screen Recording 2023-09-22 at 20 50 59](https://github.com/arti1233/TestTaskAppodeal/assets/107428500/cd3c80f1-9810-4dea-9c2e-27b69f903796)
 
 При разработке необходимо учесть, что экран может меняться как в portrait, так и в landscape ориентацию. Можно использовать тестовый режим (test mode) для отображения рекламы.
+![Screen Recording 2023-09-22 at 20 56 55 (3)](https://github.com/arti1233/TestTaskAppodeal/assets/107428500/80dc7c8d-ad03-4793-aecf-7d15b72b1995)
 
-
-![Screen Recording 2023-09-22 at 20 56 55 (2)](https://github.com/arti1233/TestTaskAppodeal/assets/107428500/94805c26-0392-48d7-b143-fd4809072f1d)
 
 
 
