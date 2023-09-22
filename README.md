@@ -17,7 +17,7 @@ Dear [Client's Name],
 
 We have received your message regarding the Google Play policy violation related to the placement of interstitial ads within your app. To fix this situation we would like to offer the following two solutions:
 
-1.  Replace the interstitial ad with other ad types. For example banner (more information here (https://docs.appodeal.com/android/ad-types/banner)) or MREC (more information here (https://docs.appodeal.com/android/ad-types/mrec)). These ad types will minimize unintentional clicks and user frustration while still allowing the ad to be displayed on the Home screen.
+1.  Replace the interstitial ad with other ad types. For example banner (more information here https://docs.appodeal.com/android/ad-types/banner) or MREC (more information here https://docs.appodeal.com/android/ad-types/mrec). These ad types will minimize unintentional clicks and user frustration while still allowing the ad to be displayed on the Home screen.
 
 2. Move the  interstitial ad to another screen within the app, preferably at a location that is less likely to disrupt the user's experience and will successfully address the concerns raised by Google Play.
 
