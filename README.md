@@ -39,14 +39,15 @@ Artsiom Karenka
    
 3) Кнопка Rewarded Video должна быть активна только при наличии загруженного rewarded video. За одну сессию нельзя показать больше 3х rewarded video. Когда показ сделать невозможно, кнопка должна быть не активной.
 
-![Screen Recording 2023-09-22 at 20 46 23](https://github.com/arti1233/TestTaskAppodeal/assets/107428500/9065bea9-4a79-4c27-92c0-3fa2f9727a3f)
+![Screen Recording 2023-09-22 at 20 46 23 (1)](https://github.com/arti1233/TestTaskAppodeal/assets/107428500/93d769fd-9eab-47ec-8f42-9f6ecb7b178d)
 
 4) Кнопка Native: При нажатии на кнопку будет появляться ListView / UITableView со встроенной нативной рекламой (не менее 3 штук).
 
-![Screen Recording 2023-09-22 at 20 50 59](https://github.com/arti1233/TestTaskAppodeal/assets/107428500/cd3c80f1-9810-4dea-9c2e-27b69f903796)
+![Screen Recording 2023-09-22 at 20 50 59 (1)](https://github.com/arti1233/TestTaskAppodeal/assets/107428500/128f1a43-d0f2-4e47-8998-d51d3c3ae1e8)
 
 При разработке необходимо учесть, что экран может меняться как в portrait, так и в landscape ориентацию. Можно использовать тестовый режим (test mode) для отображения рекламы.
-![Screen Recording 2023-09-22 at 20 56 55 (3)](https://github.com/arti1233/TestTaskAppodeal/assets/107428500/80dc7c8d-ad03-4793-aecf-7d15b72b1995)
+
+![Screen Recording 2023-09-22 at 20 56 55 (4)](https://github.com/arti1233/TestTaskAppodeal/assets/107428500/5dc08e0c-7c6c-4669-86fa-b001cc6eb2a8)
 
 
 
