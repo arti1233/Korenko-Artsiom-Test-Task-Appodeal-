@@ -1,4 +1,4 @@
-# Test Task Appodeal
+# Korenko Artsiom Test Task Appodeal
 
 ## Задание 1
 
