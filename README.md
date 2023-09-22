@@ -33,7 +33,7 @@ Artsiom Karenka
 
 1) Кнопка Banners: при нажатии на кнопку будут появляться баннеры сверху (BANNER_TOP). На время показа других типов рекламы, необходимо скрывать баннеры. После показа 5 баннеров необходимо скрыть этот тип рекламы
 
-https://github.com/arti1233/TestTaskAppodeal/assets/107428500/6b9d9cdf-ad7b-4ad7-8fe1-6a885dc14e6b
+![Screen Recording 2023-09-22 at 20 35 16](https://github.com/arti1233/TestTaskAppodeal/assets/107428500/010a592e-c79b-4aa0-95d4-d4c36a7cb981)
 
 2) Кнопка Interstitials: При нажатии на кнопку будут отображаться interstitial. Показывать interstitials не чаще чем раз в минуту. Когда показ сделать невозможно, кнопка должна быть не активной.
    
