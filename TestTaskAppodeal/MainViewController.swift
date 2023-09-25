@@ -107,6 +107,12 @@ final class MainViewController: UIViewController {
     
 //MARK: - Other metods
     
+    private func showBanner() {
+        if bannerCount < Constants.maxViewedBanners {
+            Appodeal.showAd(.bannerTop, rootViewController: self)
+        }
+    }
+    
     private func updateRewardedVideoButtonState() {
         rewardedVideoButton.isEnabled = rewardedVideoCount < Constants.maxViewedRewardedVideo
     }
@@ -171,7 +177,10 @@ final class MainViewController: UIViewController {
 extension MainViewController: AppodealBannerDelegate {
     func bannerDidShow() {
         bannerCount += 1
-        guard bannerCount == Constants.maxViewedBanners else { return }
+        guard bannerCount == Constants.maxViewedBanners else {
+            bannersButton.isEnabled = false
+            return
+        }
         Appodeal.hideBanner()
     }
 }
@@ -182,6 +191,7 @@ extension MainViewController: AppodealInterstitialDelegate {
     
     func interstitialDidDismiss() {
         startInterstitialsTimer()
+        showBanner()
     }
     
 }
@@ -194,9 +204,10 @@ extension MainViewController: AppodealRewardedVideoDelegate {
         updateRewardedVideoButtonState()
     }
     
-    private func rewardedVideoDidFinish(_ rewardAmount: UInt, name rewardName: String?) {
+    func rewardedVideoDidPresent() {
         rewardedVideoCount += 1
         updateRewardedVideoButtonState()
+        showBanner()
     }
 }
 

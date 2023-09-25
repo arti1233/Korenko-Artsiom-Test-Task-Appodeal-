@@ -400,7 +400,6 @@ SPEC REPOS:
     - APDVungleAdapter
     - APDYandexAdapter
     - Appodeal
-    - BidMachine
     - BidMachineAdColonyAdapter
     - BidMachineAmazonAdapter
     - BidMachineCriteoAdapter
@@ -462,7 +461,7 @@ SPEC CHECKSUMS:
   APDYandexAdapter: 4a77c97e675d724b7148fc919b8802aaa361fcf1
   AppLovinSDK: a76e8ec3d34fb172c7a32c15efe6805e070c918a
   Appodeal: caf6521230a2e296edf50ce21b7d5c14f8cbfb4e
-  BidMachine: 3dc30795a118b73d2ff72b89508140bf58585975
+  BidMachine: d4eaeb15d61764721d9a6e18c3e07a864ce1c351
   BidMachineAdColonyAdapter: 90b4be91688decd68cd3aad940102b4354f59520
   BidMachineAmazonAdapter: daec28c0d4e31159b1abed475fa88d4f10173522
   BidMachineCriteoAdapter: 3b1c9eb82da1e5b449d4c0d50d91d056d6540e1d
@@ -500,6 +499,6 @@ SPEC CHECKSUMS:
   YandexMobileAds: 3d7708df615f92815a3acedf9869da46d0b4d65e
   YandexMobileMetrica: f5368ee93f286c793d73b58da00929babfc897c1
 
-PODFILE CHECKSUM: 788fb83a74aa36f37ea5820e00a2330a5d0f2a8e
+PODFILE CHECKSUM: 1b985a3b1c15a4a13c686f8f45b125136ac62d8b
 
 COCOAPODS: 1.12.1
