@@ -3,29 +3,32 @@ import UIKit
 import SnapKit
 import Appodeal
 
-private enum TableSection: Int, CaseIterable {
-    case cells = 0
-    case nativeCell
-}
-
 final class NativeViewController: UIViewController {
-
+    
     private lazy var mainTableView: UITableView = {
         var tableView = UITableView()
         tableView.dataSource = self
         tableView.showsVerticalScrollIndicator = false
         tableView.backgroundColor = .white
-        tableView.register(NativeTableViewCell.self, forCellReuseIdentifier: NativeTableViewCell.key)
+        tableView.register(NativeViewCell.self, forCellReuseIdentifier: NativeViewCell.key)
         tableView.separatorStyle = .none
         return tableView
     }()
-
-    var nativeArray: [APDNativeAd] = []
     
+    var completion: (() -> ())?
+    
+    var nativeArray: [APDNativeAd] = []
+
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
         view.addSubview(mainTableView)
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        guard let completion else { return }
+        completion() 
     }
 
     override func updateViewConstraints() {
@@ -37,41 +40,38 @@ final class NativeViewController: UIViewController {
             $0.bottom.equalTo(view.safeAreaLayoutGuide.snp.bottom)
         }
     }
-
-
-
 }
 
 //MARK: - Extension for NativeViewController
 
 extension NativeViewController: UITableViewDataSource {
-    func numberOfSections(in tableView: UITableView) -> Int {
-        TableSection.allCases.count
-    }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        switch TableSection.allCases[section] {
-        case .cells:
-            return 5
-        case .nativeCell:
-           return  nativeArray.count
-        }
+        nativeArray.count
     }
 
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: NativeTableViewCell.key) as? NativeTableViewCell else { return UITableViewCell() }
-        
-        switch TableSection.allCases[indexPath.section] {
-        case .cells:
-            cell.prepareForReuse()
-            cell.updateConstraints()
-            return cell
-        case .nativeCell:
-            cell.prepareForReuse()
-            cell.configureNativeCell(info: nativeArray[indexPath.row])
-            cell.updateConstraints()
-            return cell
-        }
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: NativeViewCell.key) as? NativeViewCell else { return UITableViewCell() }
+        cell.configureNativeAd(nativeArray[indexPath.row], viewController: self)
+        return cell
     }
 }
 
+extension NativeViewController : APDNativeAdQueueDelegate {
+    func adQueueAdIsAvailable(_ adQueue: APDNativeAdQueue, ofCount count: UInt) {}
+    func adQueue(_ adQueue: APDNativeAdQueue, failedWithError error: Error) {}
+}
+
+extension APDNativeAd {
+    func show(on superview: UIView, controller: UIViewController) {
+        getViewFor(controller).map {
+            superview.addSubview($0)
+            $0.translatesAutoresizingMaskIntoConstraints = false
+            $0.snp.makeConstraints {
+                $0.trailing.leading.top.bottom.equalToSuperview().inset(8)
+                $0.height.equalTo(300)
+            }
+        }
+    }
+}

@@ -54,6 +54,7 @@ final class MainViewController: UIViewController {
     
     private var bannerCount = Constants.defaultValueForСounter
     private var rewardedVideoCount = Constants.defaultValueForСounter
+    private var isBannerButtonPressed = false
     
 //MARK: - ViewDidLoad
     
@@ -62,8 +63,8 @@ final class MainViewController: UIViewController {
         
         nativeAdQueue = APDNativeAdQueue()
         nativeAdQueue.settings = APDNativeAdSettings.default()
+        nativeAdQueue.settings.type = .noVideo
         nativeAdQueue.delegate = self
-        nativeAdQueue.settings.autocacheMask = [.icon, .media]
         
         nativeAdQueue.loadAd()
         
@@ -82,6 +83,7 @@ final class MainViewController: UIViewController {
     @objc private func bannersButtonPressed(sender: UIButton) {
         Appodeal.hideBanner()
         bannerCount = Constants.defaultValueForСounter
+        isBannerButtonPressed = true
         Appodeal.showAd(.bannerTop, rootViewController: self)
     }
     
@@ -101,6 +103,10 @@ final class MainViewController: UIViewController {
         Appodeal.hideBanner()
         let nativeVC = NativeViewController()
         nativeVC.nativeArray = nativeArray
+        nativeVC.completion = { [weak self] in
+            guard let self else { return }
+            self.showBanner()
+        }
         self.present(nativeVC, animated: true)
     }
     
@@ -108,7 +114,7 @@ final class MainViewController: UIViewController {
 //MARK: - Other metods
     
     private func showBanner() {
-        if bannerCount < Constants.maxViewedBanners {
+        if bannerCount < Constants.maxViewedBanners && isBannerButtonPressed {
             Appodeal.showAd(.bannerTop, rootViewController: self)
         }
     }

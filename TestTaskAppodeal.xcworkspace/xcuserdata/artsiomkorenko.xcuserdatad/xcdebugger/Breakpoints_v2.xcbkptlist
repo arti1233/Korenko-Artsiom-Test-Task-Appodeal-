@@ -3,4 +3,163 @@
    uuid = "2C8B83D3-65B0-4454-B506-560599AD738F"
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F0ADAF7F-74A1-48CB-9CFD-68F567C49445"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestTaskAppodeal/NativeViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "init(style:reuseIdentifier:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F0ADAF7F-74A1-48CB-9CFD-68F567C49445 - 2107382f90e5bff8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestTaskAppodeal.NativeViewCell.__allocating_init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; TestTaskAppodeal.NativeViewCell"
+                  moduleName = "TestTaskAppodeal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artsiomkorenko/Desktop/Appodeal/TestTaskAppodeal/NativeViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "F0ADAF7F-74A1-48CB-9CFD-68F567C49445 - bcebdd5e0d7966f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestTaskAppodeal.NativeViewCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; TestTaskAppodeal.NativeViewCell"
+                  moduleName = "TestTaskAppodeal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artsiomkorenko/Desktop/Appodeal/TestTaskAppodeal/NativeViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "F0ADAF7F-74A1-48CB-9CFD-68F567C49445 - bcebdd5e0d7966f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestTaskAppodeal.NativeViewCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; TestTaskAppodeal.NativeViewCell"
+                  moduleName = "TestTaskAppodeal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artsiomkorenko/Desktop/Appodeal/TestTaskAppodeal/NativeViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7D25C619-5B64-427C-984E-645162D8953C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestTaskAppodeal/NativeViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "configureNativeAd(_:viewController:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7D25C619-5B64-427C-984E-645162D8953C - e295046a15150c00"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestTaskAppodeal.NativeViewCell.configureNativeAd(_: __C.APDNativeAd, viewController: __C.UIViewController) -&gt; ()"
+                  moduleName = "TestTaskAppodeal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artsiomkorenko/Desktop/Appodeal/TestTaskAppodeal/NativeViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "7D25C619-5B64-427C-984E-645162D8953C - e295046a15150de1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestTaskAppodeal.NativeViewCell.configureNativeAd(_: __C.APDNativeAd, viewController: __C.UIViewController) -&gt; ()"
+                  moduleName = "TestTaskAppodeal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artsiomkorenko/Desktop/Appodeal/TestTaskAppodeal/NativeViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "7D25C619-5B64-427C-984E-645162D8953C - e295046a15150de1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestTaskAppodeal.NativeViewCell.configureNativeAd(_: __C.APDNativeAd, viewController: __C.UIViewController) -&gt; ()"
+                  moduleName = "TestTaskAppodeal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artsiomkorenko/Desktop/Appodeal/TestTaskAppodeal/NativeViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "7D25C619-5B64-427C-984E-645162D8953C - e295046a15150ce9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TestTaskAppodeal.NativeViewCell.configureNativeAd(_: __C.APDNativeAd, viewController: __C.UIViewController) -&gt; ()"
+                  moduleName = "TestTaskAppodeal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artsiomkorenko/Desktop/Appodeal/TestTaskAppodeal/NativeViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E35817AC-0FCF-430D-8927-B7BAB12D9C4E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TestTaskAppodeal/MainViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
+            landmarkName = "showBanner()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
