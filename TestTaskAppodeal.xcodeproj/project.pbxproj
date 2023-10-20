@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		43AE6989341BAD1088414C8C /* Pods_TestTaskAppodeal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25A867B738890F381DAA402E /* Pods_TestTaskAppodeal.framework */; };
 		AE47D6682AC1D36A00BF8ACC /* NativeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE47D6672AC1D36A00BF8ACC /* NativeView.swift */; };
 		AE47D66A2AC1F08F00BF8ACC /* NativeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE47D6692AC1F08E00BF8ACC /* NativeViewCell.swift */; };
 		AEAE71E62ABC4AC200C2DDDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAE71E52ABC4AC200C2DDDE /* AppDelegate.swift */; };
@@ -18,11 +17,13 @@
 		AEAE71FD2ABC50FD00C2DDDE /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAE71FC2ABC50FD00C2DDDE /* UIButton+Extension.swift */; };
 		AEF917062ABD8A5400AC211C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = AEF917052ABD8A5400AC211C /* SnapKit */; };
 		AEFADDDA2ABD8446003A249F /* NativeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFADDD92ABD8446003A249F /* NativeViewController.swift */; };
+		C77E34D0EBF6AB0D86AC7191 /* Pods_TestTaskAppodeal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494A53B2061FE4CFB31794BD /* Pods_TestTaskAppodeal.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		25A867B738890F381DAA402E /* Pods_TestTaskAppodeal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestTaskAppodeal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		967F55D990620E13B399A116 /* Pods-TestTaskAppodeal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTaskAppodeal.release.xcconfig"; path = "Target Support Files/Pods-TestTaskAppodeal/Pods-TestTaskAppodeal.release.xcconfig"; sourceTree = "<group>"; };
+		433189AD7D32C5B569A9A482 /* Pods-TestTaskAppodeal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTaskAppodeal.release.xcconfig"; path = "Target Support Files/Pods-TestTaskAppodeal/Pods-TestTaskAppodeal.release.xcconfig"; sourceTree = "<group>"; };
+		494A53B2061FE4CFB31794BD /* Pods_TestTaskAppodeal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestTaskAppodeal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		819BEBEA590A7AE9DAD0B14B /* Pods-TestTaskAppodeal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTaskAppodeal.debug.xcconfig"; path = "Target Support Files/Pods-TestTaskAppodeal/Pods-TestTaskAppodeal.debug.xcconfig"; sourceTree = "<group>"; };
 		AE47D6672AC1D36A00BF8ACC /* NativeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeView.swift; sourceTree = "<group>"; };
 		AE47D6692AC1F08E00BF8ACC /* NativeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeViewCell.swift; sourceTree = "<group>"; };
 		AEAE71E22ABC4AC200C2DDDE /* TestTaskAppodeal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTaskAppodeal.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -34,7 +35,6 @@
 		AEAE71F32ABC4AC500C2DDDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEAE71FC2ABC50FD00C2DDDE /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 		AEFADDD92ABD8446003A249F /* NativeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeViewController.swift; sourceTree = "<group>"; };
-		E0D811CBDE1F80ED45EFF53D /* Pods-TestTaskAppodeal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTaskAppodeal.debug.xcconfig"; path = "Target Support Files/Pods-TestTaskAppodeal/Pods-TestTaskAppodeal.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,20 +43,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEF917062ABD8A5400AC211C /* SnapKit in Frameworks */,
-				43AE6989341BAD1088414C8C /* Pods_TestTaskAppodeal.framework in Frameworks */,
+				C77E34D0EBF6AB0D86AC7191 /* Pods_TestTaskAppodeal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		96E8FBF2F8CF871A8F3E93DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				494A53B2061FE4CFB31794BD /* Pods_TestTaskAppodeal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AEAE71D92ABC4AC200C2DDDE = {
 			isa = PBXGroup;
 			children = (
 				AEAE71E42ABC4AC200C2DDDE /* TestTaskAppodeal */,
 				AEAE71E32ABC4AC200C2DDDE /* Products */,
 				DF58DAE56B3AD7672635B5EE /* Pods */,
-				FFEA68002A937E030BB7344D /* Frameworks */,
+				96E8FBF2F8CF871A8F3E93DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,18 +96,10 @@
 		DF58DAE56B3AD7672635B5EE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E0D811CBDE1F80ED45EFF53D /* Pods-TestTaskAppodeal.debug.xcconfig */,
-				967F55D990620E13B399A116 /* Pods-TestTaskAppodeal.release.xcconfig */,
+				819BEBEA590A7AE9DAD0B14B /* Pods-TestTaskAppodeal.debug.xcconfig */,
+				433189AD7D32C5B569A9A482 /* Pods-TestTaskAppodeal.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		FFEA68002A937E030BB7344D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				25A867B738890F381DAA402E /* Pods_TestTaskAppodeal.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,12 +109,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEAE71F62ABC4AC500C2DDDE /* Build configuration list for PBXNativeTarget "TestTaskAppodeal" */;
 			buildPhases = (
-				9761929F955FC17F1F1CEC19 /* [CP] Check Pods Manifest.lock */,
+				4970277646530447A7FDDFD7 /* [CP] Check Pods Manifest.lock */,
 				AEAE71DE2ABC4AC200C2DDDE /* Sources */,
 				AEAE71DF2ABC4AC200C2DDDE /* Frameworks */,
 				AEAE71E02ABC4AC200C2DDDE /* Resources */,
-				8CF4F22E34CE872C51379DFE /* [CP] Embed Pods Frameworks */,
-				6F3FC0B284F9FFAA7C78E636 /* [CP] Copy Pods Resources */,
+				BFDAFF86BCAA93DC4CED5D97 /* [CP] Embed Pods Frameworks */,
+				D1BE1D31BFAC0936CEE3196A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -153,7 +153,7 @@
 			);
 			mainGroup = AEAE71D92ABC4AC200C2DDDE;
 			packageReferences = (
-				AEF917042ABD8A5400AC211C /* XCRemoteSwiftPackageReference "SnapKit" */,
+				AEF917042ABD8A5400AC211C /* XCRemoteSwiftPackageReference "SnapKit.git" */,
 			);
 			productRefGroup = AEAE71E32ABC4AC200C2DDDE /* Products */;
 			projectDirPath = "";
@@ -177,41 +177,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6F3FC0B284F9FFAA7C78E636 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TestTaskAppodeal/Pods-TestTaskAppodeal-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TestTaskAppodeal/Pods-TestTaskAppodeal-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestTaskAppodeal/Pods-TestTaskAppodeal-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8CF4F22E34CE872C51379DFE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TestTaskAppodeal/Pods-TestTaskAppodeal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TestTaskAppodeal/Pods-TestTaskAppodeal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestTaskAppodeal/Pods-TestTaskAppodeal-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9761929F955FC17F1F1CEC19 /* [CP] Check Pods Manifest.lock */ = {
+		4970277646530447A7FDDFD7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -231,6 +197,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFDAFF86BCAA93DC4CED5D97 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestTaskAppodeal/Pods-TestTaskAppodeal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestTaskAppodeal/Pods-TestTaskAppodeal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestTaskAppodeal/Pods-TestTaskAppodeal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1BE1D31BFAC0936CEE3196A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestTaskAppodeal/Pods-TestTaskAppodeal-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestTaskAppodeal/Pods-TestTaskAppodeal-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestTaskAppodeal/Pods-TestTaskAppodeal-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -382,7 +382,7 @@
 		};
 		AEAE71F72ABC4AC500C2DDDE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E0D811CBDE1F80ED45EFF53D /* Pods-TestTaskAppodeal.debug.xcconfig */;
+			baseConfigurationReference = 819BEBEA590A7AE9DAD0B14B /* Pods-TestTaskAppodeal.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -414,7 +414,7 @@
 		};
 		AEAE71F82ABC4AC500C2DDDE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 967F55D990620E13B399A116 /* Pods-TestTaskAppodeal.release.xcconfig */;
+			baseConfigurationReference = 433189AD7D32C5B569A9A482 /* Pods-TestTaskAppodeal.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -468,7 +468,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		AEF917042ABD8A5400AC211C /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+		AEF917042ABD8A5400AC211C /* XCRemoteSwiftPackageReference "SnapKit.git" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
 			requirement = {
@@ -481,7 +481,7 @@
 /* Begin XCSwiftPackageProductDependency section */
 		AEF917052ABD8A5400AC211C /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = AEF917042ABD8A5400AC211C /* XCRemoteSwiftPackageReference "SnapKit" */;
+			package = AEF917042ABD8A5400AC211C /* XCRemoteSwiftPackageReference "SnapKit.git" */;
 			productName = SnapKit;
 		};
 /* End XCSwiftPackageProductDependency section */

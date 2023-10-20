@@ -8,7 +8,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, AppodealInitializationDel
         
         Appodeal.setAutocache(true, types: .interstitial)
         Appodeal.setLogLevel(.verbose)
-        Appodeal.setTestingEnabled(true)
+        // Appodeal.setTestingEnabled(true)
 
         Appodeal.setInitializationDelegate(self)
 

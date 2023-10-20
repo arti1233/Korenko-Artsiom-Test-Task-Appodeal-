@@ -1,4 +1,4 @@
-platform :ios, '12.0'
+platform :ios, '13.0'
 workspace 'TestTaskAppodeal.xcworkspace'
 
 source 'https://github.com/appodeal/CocoaPods.git'
@@ -11,29 +11,45 @@ install! 'cocoapods',
 use_frameworks!
 
 def appodeal
-  pod 'Appodeal', '3.1.3'
-    pod 'APDAdColonyAdapter', '3.1.3.0'
-    pod 'BidMachineAdColonyAdapter', '~> 2.3.0.0'
-    pod 'APDAppLovinAdapter', '3.1.3.0'
-    pod 'APDBidMachineAdapter', '3.1.3.0' # Required
-    pod 'BidMachineMintegralAdapter', '~> 2.3.0.0'
-    pod 'BidMachineAmazonAdapter', '~> 2.3.0.0'
-    pod 'BidMachineCriteoAdapter', '~> 2.3.0.0'
-    pod 'BidMachineSmaatoAdapter', '~> 2.3.0.0'
-    pod 'BidMachineTapjoyAdapter', '~> 2.3.0.0'
-    pod 'BidMachinePangleAdapter', '~> 2.3.0.0'
-    pod 'APDGoogleAdMobAdapter', '3.1.3.0'
-    pod 'APDIABAdapter', '3.1.3.0' # Required
-    pod 'APDIronSourceAdapter', '3.1.3.0'
-    pod 'APDMetaAudienceNetworkAdapter', '3.1.3.0'
-    pod 'BidMachineMetaAudienceAdapter', '~> 2.3.0.0'
-    pod 'APDMyTargetAdapter', '3.1.3.0'
-    pod 'BidMachineMyTargetAdapter', '~> 2.3.0.0'
-    pod 'APDStackAnalyticsAdapter', '3.1.3.0' # Required
-    pod 'APDUnityAdapter', '3.1.3.0'
-    pod 'APDVungleAdapter', '3.1.3.0'
-    pod 'BidMachineVungleAdapter', '~> 2.3.0.0'
-    pod 'APDYandexAdapter', '3.1.3.0'
+   pod 'Appodeal', '3.2.0-beta.1'
+    pod 'APDAdColonyAdapter', '3.2.0.0-beta.1'
+    pod 'BidMachineAdColonyAdapter', '~> 2.3.0'
+    pod 'APDAppLovinAdapter', '3.2.0.0-beta.1'
+    pod 'BidonAdapterAppLovin', '~> 0.4'
+    pod 'APDBidMachineAdapter', '3.2.0.0-beta.1' # Required
+    pod 'BidMachineAmazonAdapter', '~> 2.3.0'
+    pod 'BidMachineCriteoAdapter', '~> 2.3.0'
+    pod 'BidMachineSmaatoAdapter', '~> 2.3.0'
+    pod 'BidMachineTapjoyAdapter', '~> 2.3.0'
+    pod 'BidMachinePangleAdapter', '~> 2.3.0'
+    pod 'APDBidonAdapter', '3.2.0.0-beta.1' # Required
+    pod 'BidonAdapterBidMachine', '~> 0.4'
+    pod 'APDBigoAdsAdapter', '3.2.0.0-beta.1'
+    pod 'BidonAdapterBigoAds', '~> 0.4'
+    pod 'APDDTExchangeAdapter', '3.2.0.0-beta.1'
+    pod 'BidonAdapterDTExchange', '~> 0.4'
+    pod 'APDGoogleAdMobAdapter', '3.2.0.0-beta.1'
+    pod 'BidonAdapterGoogleMobileAds', '~> 0.4'
+    pod 'APDIABAdapter', '3.2.0.0-beta.1' # Required
+    pod 'APDInMobiAdapter', '3.2.0.0-beta.1'
+    pod 'BidonAdapterInMobi', '~> 0.4'
+    pod 'APDIronSourceAdapter', '3.2.0.0-beta.1'
+    pod 'APDMetaAudienceNetworkAdapter', '3.2.0.0-beta.1'
+    pod 'BidMachineMetaAudienceAdapter', '~> 2.3.0'
+    pod 'BidonAdapterMetaAudienceNetwork', '~> 0.4'
+    pod 'APDMintegralAdapter', '3.2.0.0-beta.1'
+    pod 'BidMachineMintegralAdapter', '~> 2.3.0'
+    pod 'BidonAdapterMintegral', '~> 0.4'
+    pod 'APDMyTargetAdapter', '3.2.0.0-beta.1'
+    pod 'BidMachineMyTargetAdapter', '~> 2.3.0'
+    pod 'APDStackAnalyticsAdapter', '3.2.0.0-beta.1' # Deprecated
+    pod 'APDStackCrashReporterAdapter', '3.2.0.0-beta.1'
+    pod 'APDUnityAdapter', '3.2.0.0-beta.1'
+    pod 'BidonAdapterUnityAds', '~> 0.4'
+    pod 'APDVungleAdapter', '3.2.0.0-beta.1'
+    pod 'BidMachineVungleAdapter', '~> 2.3.0'
+    pod 'BidonAdapterVungle', '~> 0.4'
+    pod 'APDYandexAdapter', '3.2.0.0-beta.1'
 end
 
 target 'TestTaskAppodeal' do
