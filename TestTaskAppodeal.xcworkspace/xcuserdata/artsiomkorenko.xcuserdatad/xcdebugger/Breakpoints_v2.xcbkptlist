@@ -155,8 +155,8 @@
             filePath = "TestTaskAppodeal/MainViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "117"
-            endingLineNumber = "117"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
             landmarkName = "showBanner()"
             landmarkType = "7">
          </BreakpointContent>

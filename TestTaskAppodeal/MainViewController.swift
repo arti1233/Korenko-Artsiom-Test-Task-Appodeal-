@@ -82,21 +82,17 @@ final class MainViewController: UIViewController {
     
     @objc private func bannersButtonPressed(sender: UIButton) {
         Appodeal.hideBanner()
-        bannerCount = Constants.defaultValueForСounter
-        isBannerButtonPressed = true
         Appodeal.showAd(.bannerTop, rootViewController: self)
     }
     
     @objc private func interstitialsButtonPressed(sender: UIButton) {
         Appodeal.hideBanner()
         Appodeal.showAd(.interstitial, rootViewController: self)
-        interstitialsButton.isEnabled = false
     }
     
     @objc private func rewardedVideoButtonPressed(sender: UIButton) {
         Appodeal.hideBanner()
         Appodeal.showAd(.rewardedVideo, rootViewController: self)
-        rewardedVideoButton.isEnabled = false
     }
     
     @objc private func nativeButtonPressed(sender: UIButton) {

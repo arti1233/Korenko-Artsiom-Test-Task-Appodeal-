@@ -5,15 +5,16 @@ import Appodeal
 class AppDelegate: UIResponder, UIApplicationDelegate, AppodealInitializationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        // Stock bundle com.artsiomKorenko.TestTaskAppodeal
         
         Appodeal.setAutocache(true, types: .interstitial)
         Appodeal.setLogLevel(.verbose)
-        // Appodeal.setTestingEnabled(true)
+//         Appodeal.setTestingEnabled(true)
 
         Appodeal.setInitializationDelegate(self)
 
         Appodeal.initialize(
-            withApiKey: "0ef0cc5cb3530375b4931315f508608d594455cb8a51a88a",
+            withApiKey: "3651ba9ba3af2f26bf3a274833d6710a1c0be6687d87437a",
             types: [.interstitial, .banner, .nativeAd, .rewardedVideo]
         )
         

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		520CB7248D6394AF64D1A915 /* Pods_TestTaskAppodeal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADF4920A32FBD45187A693BF /* Pods_TestTaskAppodeal.framework */; };
 		AE47D6682AC1D36A00BF8ACC /* NativeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE47D6672AC1D36A00BF8ACC /* NativeView.swift */; };
 		AE47D66A2AC1F08F00BF8ACC /* NativeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE47D6692AC1F08E00BF8ACC /* NativeViewCell.swift */; };
 		AEAE71E62ABC4AC200C2DDDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAE71E52ABC4AC200C2DDDE /* AppDelegate.swift */; };
@@ -17,13 +18,12 @@
 		AEAE71FD2ABC50FD00C2DDDE /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAE71FC2ABC50FD00C2DDDE /* UIButton+Extension.swift */; };
 		AEF917062ABD8A5400AC211C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = AEF917052ABD8A5400AC211C /* SnapKit */; };
 		AEFADDDA2ABD8446003A249F /* NativeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFADDD92ABD8446003A249F /* NativeViewController.swift */; };
-		C77E34D0EBF6AB0D86AC7191 /* Pods_TestTaskAppodeal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494A53B2061FE4CFB31794BD /* Pods_TestTaskAppodeal.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		433189AD7D32C5B569A9A482 /* Pods-TestTaskAppodeal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTaskAppodeal.release.xcconfig"; path = "Target Support Files/Pods-TestTaskAppodeal/Pods-TestTaskAppodeal.release.xcconfig"; sourceTree = "<group>"; };
-		494A53B2061FE4CFB31794BD /* Pods_TestTaskAppodeal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestTaskAppodeal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		819BEBEA590A7AE9DAD0B14B /* Pods-TestTaskAppodeal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTaskAppodeal.debug.xcconfig"; path = "Target Support Files/Pods-TestTaskAppodeal/Pods-TestTaskAppodeal.debug.xcconfig"; sourceTree = "<group>"; };
+		43B0709191A21F5CDDD2B5C1 /* Pods-TestTaskAppodeal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTaskAppodeal.release.xcconfig"; path = "Target Support Files/Pods-TestTaskAppodeal/Pods-TestTaskAppodeal.release.xcconfig"; sourceTree = "<group>"; };
+		74629B424B51F1206021760A /* Pods-TestTaskAppodeal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTaskAppodeal.debug.xcconfig"; path = "Target Support Files/Pods-TestTaskAppodeal/Pods-TestTaskAppodeal.debug.xcconfig"; sourceTree = "<group>"; };
+		ADF4920A32FBD45187A693BF /* Pods_TestTaskAppodeal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestTaskAppodeal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE47D6672AC1D36A00BF8ACC /* NativeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeView.swift; sourceTree = "<group>"; };
 		AE47D6692AC1F08E00BF8ACC /* NativeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeViewCell.swift; sourceTree = "<group>"; };
 		AEAE71E22ABC4AC200C2DDDE /* TestTaskAppodeal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTaskAppodeal.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,17 +43,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEF917062ABD8A5400AC211C /* SnapKit in Frameworks */,
-				C77E34D0EBF6AB0D86AC7191 /* Pods_TestTaskAppodeal.framework in Frameworks */,
+				520CB7248D6394AF64D1A915 /* Pods_TestTaskAppodeal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		96E8FBF2F8CF871A8F3E93DE /* Frameworks */ = {
+		372DC9F04487879FD3D51A93 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				494A53B2061FE4CFB31794BD /* Pods_TestTaskAppodeal.framework */,
+				ADF4920A32FBD45187A693BF /* Pods_TestTaskAppodeal.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -64,7 +64,7 @@
 				AEAE71E42ABC4AC200C2DDDE /* TestTaskAppodeal */,
 				AEAE71E32ABC4AC200C2DDDE /* Products */,
 				DF58DAE56B3AD7672635B5EE /* Pods */,
-				96E8FBF2F8CF871A8F3E93DE /* Frameworks */,
+				372DC9F04487879FD3D51A93 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,8 +96,8 @@
 		DF58DAE56B3AD7672635B5EE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				819BEBEA590A7AE9DAD0B14B /* Pods-TestTaskAppodeal.debug.xcconfig */,
-				433189AD7D32C5B569A9A482 /* Pods-TestTaskAppodeal.release.xcconfig */,
+				74629B424B51F1206021760A /* Pods-TestTaskAppodeal.debug.xcconfig */,
+				43B0709191A21F5CDDD2B5C1 /* Pods-TestTaskAppodeal.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -109,12 +109,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEAE71F62ABC4AC500C2DDDE /* Build configuration list for PBXNativeTarget "TestTaskAppodeal" */;
 			buildPhases = (
-				4970277646530447A7FDDFD7 /* [CP] Check Pods Manifest.lock */,
+				47C3BFB8E53E2D52AD70D424 /* [CP] Check Pods Manifest.lock */,
 				AEAE71DE2ABC4AC200C2DDDE /* Sources */,
 				AEAE71DF2ABC4AC200C2DDDE /* Frameworks */,
 				AEAE71E02ABC4AC200C2DDDE /* Resources */,
-				BFDAFF86BCAA93DC4CED5D97 /* [CP] Embed Pods Frameworks */,
-				D1BE1D31BFAC0936CEE3196A /* [CP] Copy Pods Resources */,
+				2B81E98E285F59D183CB87F5 /* [CP] Embed Pods Frameworks */,
+				D70233F2C34FB9559A96E205 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -153,7 +153,7 @@
 			);
 			mainGroup = AEAE71D92ABC4AC200C2DDDE;
 			packageReferences = (
-				AEF917042ABD8A5400AC211C /* XCRemoteSwiftPackageReference "SnapKit.git" */,
+				AEF917042ABD8A5400AC211C /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = AEAE71E32ABC4AC200C2DDDE /* Products */;
 			projectDirPath = "";
@@ -177,7 +177,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4970277646530447A7FDDFD7 /* [CP] Check Pods Manifest.lock */ = {
+		2B81E98E285F59D183CB87F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestTaskAppodeal/Pods-TestTaskAppodeal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestTaskAppodeal/Pods-TestTaskAppodeal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestTaskAppodeal/Pods-TestTaskAppodeal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47C3BFB8E53E2D52AD70D424 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -199,24 +216,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BFDAFF86BCAA93DC4CED5D97 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TestTaskAppodeal/Pods-TestTaskAppodeal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TestTaskAppodeal/Pods-TestTaskAppodeal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestTaskAppodeal/Pods-TestTaskAppodeal-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D1BE1D31BFAC0936CEE3196A /* [CP] Copy Pods Resources */ = {
+		D70233F2C34FB9559A96E205 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -382,11 +382,13 @@
 		};
 		AEAE71F72ABC4AC500C2DDDE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 819BEBEA590A7AE9DAD0B14B /* Pods-TestTaskAppodeal.debug.xcconfig */;
+			baseConfigurationReference = 74629B424B51F1206021760A /* Pods-TestTaskAppodeal.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TestTaskAppodeal/TestTaskAppodeal.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NY9SGUADU3;
@@ -404,8 +406,12 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.artsiomKorenko.TestTaskAppodeal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -414,11 +420,13 @@
 		};
 		AEAE71F82ABC4AC500C2DDDE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 433189AD7D32C5B569A9A482 /* Pods-TestTaskAppodeal.release.xcconfig */;
+			baseConfigurationReference = 43B0709191A21F5CDDD2B5C1 /* Pods-TestTaskAppodeal.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TestTaskAppodeal/TestTaskAppodeal.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NY9SGUADU3;
@@ -436,8 +444,12 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.artsiomKorenko.TestTaskAppodeal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -468,7 +480,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		AEF917042ABD8A5400AC211C /* XCRemoteSwiftPackageReference "SnapKit.git" */ = {
+		AEF917042ABD8A5400AC211C /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
 			requirement = {
@@ -481,7 +493,7 @@
 /* Begin XCSwiftPackageProductDependency section */
 		AEF917052ABD8A5400AC211C /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = AEF917042ABD8A5400AC211C /* XCRemoteSwiftPackageReference "SnapKit.git" */;
+			package = AEF917042ABD8A5400AC211C /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
